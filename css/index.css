@@ -1,0 +1,38 @@
+section {
+    margin: 0px;
+}
+.hero-banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.hero-banner > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-banner > h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.mustang-seek-logo {
+    width: 200px;
+}
+.find-out-btn {
+    padding: 6px 20px;
+    border: none;
+    background-color: #00142E;
+    color: #fff;
+    border-radius: 30px;
+}
