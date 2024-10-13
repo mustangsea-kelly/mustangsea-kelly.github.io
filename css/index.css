@@ -41,3 +41,34 @@ a:hover {
     color: inherit;
     text-decoration: none;
 }
+
+.four-point {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    flex-direction: column;
+    aspect-ratio: 1 / 1;
+    background-color: #fff;
+    color: #00142E;
+}
+.blue-ford .four-point {
+    background-color: #00142E;
+    color: #fff;
+}
+.four-point > h3 {
+    font-weight: 500;
+    margin: 0px;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+}
+.four-point > p {
+    margin: 0px;
+}
+
+.bg-ford-blue table th,
+.bg-ford-blue table td {
+    background: transparent !important;
+    color: #fff;
+}
