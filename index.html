@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css?v=0.1">
 </head>
@@ -240,10 +241,10 @@
                     </section>
                     <section class="p-5">
                         <div class="container">
-                            <h2 class="section-title">Segmentation and Targeting Strategy</h2>
-                            <div class="row g-0 align-items-center">
-                                <div class="col-6">
-                                    <img src="./assets/images/mustang-undercover-image-820x460-d.jpeg" class="img-fluid w-100" alt="">
+                            <h2 class="section-title text-center">Segmentation and Targeting Strategy</h2>
+                            <div id="section1" class="row g-0 align-items-start">
+                                <div class="col-6 h-100">
+                                    <img src="./assets/images/tp4/IMG_2880.JPG" class="img-fluid w-100 h-100 object-fit-cover" alt="">
                                 </div>
                                 <div class="col-6 p-5 pe-0">
                                     <h5 class="section-title mb-2">Demographic Segmentation</h5>
@@ -273,8 +274,8 @@
                     </section>
                     <section class="p-5 bg-ford-blue text-light">
                         <div class="container">
-                            <h2 class="section-title">Offer</h2>
-                            <div class="row g-0 align-items-center">
+                            <h2 class="section-title text-center">Offer</h2>
+                            <div id="section2" class="row g-0 align-items-start mb-5">
                                 <div class="col-6 p-5 ps-0">
                                     <h5 class="section-title mb-2">Product Highlight</h5>
                                     <ul>
@@ -286,20 +287,40 @@
                                         <li><strong>Maintenance Packages</strong>: Offer bundled maintenance services to ensure customers have a seamless ownership experience.</li>
                                     </ul>
                                 </div>
-                                <div class="col-6">
-                                    <img src="./assets/images/mustang-undercover-image-820x460-d.jpeg" class="img-fluid w-100" alt="">
+                                <div id="offerSection" class="col-6 h-100">
+                                    <div class="tab-content h-100">
+                                        <div class="tab-pane show active fade h-100" id="img1">
+                                            <img src="./assets/images/tp4/IMG_2887.JPG" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                                        </div>
+                                        <div class="tab-pane fade h-100" id="img2">
+                                            <img src="./assets/images/tp4/IMG_2889.JPG" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                                        </div>
+                                    </div>
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="active" data-bs-toggle="tab" data-bs-target="#img1" type="button"></button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button data-bs-toggle="tab" data-bs-target="#img2" type="button"></button>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
+                            <p class="text-center mb-0">
+                                <strong>Explanation</strong>: 
+                                <br><br>
+                                Marketing the Mustang should focus on test drives because they provide potential buyers with a hands-on experience that showcases the vehicle's performance, handling, and comfort. This experiential marketing approach allows customers to feel the excitement of driving a Mustang, fostering emotional connections and increasing their likelihood of making a purchase. According to Pine and Gilmore in their 1998 book <i>The Experience Economy</i>, engaging customers through experiential methods significantly influences purchase decisions. Test drives also help overcome common buyer objections, such as concerns about comfort and practicality, by allowing individuals to directly assess the car's capabilities. Overall, offering test drive promotions is essential for converting interest into sales and building long-term customer loyalty.
+                            </p>
                         </div>
                     </section>
                     <section class="p-5">
                         <div class="container">
-                            <h2 class="section-title">Creative Strategy</h2>
-                            <div class="row g-0 align-items-center">
-                                <div class="col-6">
-                                    <img src="./assets/images/mustang-undercover-image-820x460-d.jpeg" class="img-fluid w-100" alt="">
+                            <h2 class="section-title text-center">Creative Strategy</h2>
+                            <div id="section3" class="row g-0 align-items-start mb-5">
+                                <div class="col-6 h-100">
+                                    <img src="./assets/images/tp4/IMG_2890.JPG" class="img-fluid w-100 h-100 object-fit-cover" alt="">
                                 </div>
-                                <div class="col-6 p-5 pe-0">
+                                <div id="section3" class="col-6 p-5 pe-0">
                                     <h5 class="section-title mb-2">Visual Elements</h5>
                                     <ul>
                                         <li><strong>Imagery</strong>: Use high-quality images and videos showcasing the Mustang in urban settings, emphasizing its modern design and performance features. Capture the essence of an active lifestyle with the Mustang as a centerpiece.</li>
@@ -322,6 +343,11 @@
                                     </ul>
                                 </div>
                             </div>
+                            <p class="text-center mb-0">
+                                <strong>Explanation</strong>:
+                                <br><br>
+                                Utilizing social media as the main platform for promoting the Mustang, combined with collaborations with celebrities, is a strategic choice that capitalizes on the high engagement and vast reach of these channels. Social media platforms enhance real-time interaction with potential customers, fostering community engagement and brand loyalty. According to a study by Kaplan and Haenlein (2010) in <i>Business Horizons</i>, social media enhances communication and collaboration among users, creating a more interactive and personalized brand experience. Collaborating with celebrities amplifies this effect, as research shows that celebrity endorsements can significantly influence consumer attitudes and purchase intentions. Ohanian (1990) in the <i>Journal of Advertising Research</i> found that the credibility of a celebrity endorser enhances the effectiveness of marketing campaigns, particularly in the automotive sector, where brand image plays a crucial role in consumer decision-making. By leveraging social media and celebrity partnerships, the Mustang campaign can effectively reach target demographics, create buzz, and drive engagement, ultimately leading to increased sales and brand loyalty.
+                            </p>
                         </div>
                     </section>
                     <section class="p-5 bg-ford-blue text-light">
@@ -520,7 +546,7 @@
                     <section class="p-5">
                         <div class="container">
                             <h2 class="section-title">One-Year Media Schedule for Ford Mustang Campaign</h2>
-                            <div class="accordion" id="phaseAccordion">
+                            <div class="accordion mb-5" id="phaseAccordion">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#phase1" aria-expanded="true" aria-controls="phase1">
@@ -782,6 +808,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <p class="text-center mb-0">
+                                <strong>Explanation</strong>:
+                                <br><br>
+                                Effective budgeting involves not only allocating funds to various marketing activities but also continuously monitoring and adjusting the budget based on campaign performance and market dynamics, as noted by Kotler & Keller (2016). A structured budgeting approach ensures that resources are utilized effectively to maximize return on investment (ROI). Additionally, the Journal of Advertising Research highlights the importance of strategic budget allocation, emphasizing that it should consider both short-term promotions and long-term brand equity (Blakeman, 2018). The budgeting for the Ford Mustang campaign is informed by the Ford Motor Company's 2023 annual reports, which provide insights into resource allocation and strategic priorities. Together, these insights underscore the need for a comprehensive budgeting strategy that balances immediate marketing efforts with sustainable brand growth.
+                            </p>
                         </div>
                     </section>
                     <section class="p-5 bg-ford-blue text-light">
@@ -813,9 +844,9 @@
                                 </div>
                             </div>
                             <h3 class="section-title text-center">SEO Strategy</h3>
-                            <div class="row g-0 align-items-center">
-                                <div class="col-6">
-                                    <img src="./assets/images/mustang-undercover-image-820x460-d.jpeg" class="img-fluid w-100" alt="">
+                            <div id="section4" class="row g-0 align-items-start mb-5">
+                                <div class="col-6 h-100">
+                                    <img src="./assets/images/tp4/IMG_2881.JPG" class="img-fluid w-100 h-100 object-fit-cover" alt="">
                                 </div>
                                 <div class="col-6 p-5 pe-0">
                                     <h5 class="section-title mb-2">On-Page SEO</h5>
@@ -845,7 +876,7 @@
                                 </div>
                             </div>
                             <h3 class="section-title text-center">Performance Tracking and Analytics</h3>
-                            <div class="row g-0 align-items-center">
+                            <div id="section5" class="row g-0 align-items-start mb-5">
                                 <div class="col-6 p-5 ps-0">
                                     <h5 class="section-title mb-2">Google Analytics</h5>
                                     <ul>
@@ -861,10 +892,15 @@
                                         <li>Prepare monthly performance reports detailing key metrics (e.g., impressions, clicks, conversions, and ROI) to evaluate the effectiveness of the SEM strategy and make data-driven decisions.</li>
                                     </ul>
                                 </div>
-                                <div class="col-6">
-                                    <img src="./assets/images/mustang-undercover-image-820x460-d.jpeg" class="img-fluid w-100" alt="">
+                                <div class="col-6 h-100">
+                                    <img src="./assets/images/tp4/IMG_2883.JPG" class="img-fluid w-100 h-100 object-fit-cover" alt="">
                                 </div>
                             </div>
+                            <p class="text-center mb-0">
+                                <strong>Explanation</strong>:
+                                <br><br>
+                                According to Chaffey and Ellis-Chadwick (2019), effective SEM strategies should integrate both SEO and PPC efforts to enhance visibility and engagement. They emphasize that well-structured SEM campaigns not only increase traffic but also help in building brand credibility and trust over time (Chaffey, D., & Ellis-Chadwick, F. (2019). <i>Digital Marketing</i>). This approach aligns with the Mustang campaign’s goals of driving awareness and engagement through targeted digital marketing efforts.
+                            </p>
                         </div>
                     </section>
                     <section class="p-5 text-center">
@@ -881,7 +917,7 @@
                         <p class="mb-5">
                             The Ford Mustang continues to be a symbol of performance and style, pushing boundaries with its innovative design and legendary legacy.
                         </p>
-                        <div class="row blue-ford">
+                        <div class="row blue-ford mb-5">
                             <div class="col-md-3">
                                 <article class="four-point">
                                     <h3>Bronco</h3>
@@ -907,28 +943,402 @@
                                 </article>
                             </div>
                         </div>
+                        <p class="text-center mb-0">
+                            <strong>Explanation</strong>:
+                            <br><br>
+                            This online PR strategy for the Ford Mustang campaign, featuring Wang Yibo and Liu Yifei, effectively leverages the popularity of these Asian superstars to enhance brand visibility and engage a younger, tech-savvy audience in Southeast Asia. By promoting exclusive pop-up test drive events, the campaign fosters excitement and creates personal connections, making the Mustang experience more relatable and appealing. According to Grunig and Hunt (1984), effective public relations should focus on building relationships to shape public perception, which aligns with the campaign's goal of repositioning the Mustang brand for a new demographic (Grunig, J. E., & Hunt, T. (1984). <i>Managing Public Relations</i>).
+                        </p>
                     </section>
                     <section class="p-5 bg-ford-blue text-light">
                         <div class="container">
                             <h2 class="section-title">Online Partnership Including Affiliate Marketing</h2>
-                            <div class="row g-0 align-items-center">
-                                <div class="col-6">
-                                    <img src="./assets/images/mustang-undercover-image-820x460-d.jpeg" class="img-fluid w-100" alt="">
+                            <div id="section6" class="row g-0 align-items-start mb-5">
+                                <div class="col-6 h-100">
+                                    <img src="./assets/images/tp4/IMG_2882.JPG" class="img-fluid w-100 h-100 object-fit-cover" alt="">
                                 </div>
-                                <div class="col-6 p-5 ps-0">
-                                    <h5 class="section-title mb-2">Product Highlight</h5>
+                                <div class="col-6 p-5 pe-0">
+                                    <h5 class="section-title mb-2">Partnership</h5>
                                     <ul>
-                                        <li><strong>Test Drive Promotions</strong>: Offer exclusive test drive events in major cities, allowing potential buyers to experience the Mustang's performance firsthand.</li>
+                                        <li><strong>Test Drive Content</strong>: Capturing Wang Yibo and/or Liu Yifei taking the Mustang on the road. Highlighting exterior, interior, performance and features.</li>
+                                        <li><strong>Behind-the scenes</strong>: Share behind the scenes clips of the influencers preparing for the shots, interacting with the car and discussing what they love about the car.</li>
+                                        <li><strong>Photoshoot</strong>: Style a fashion shoot with both and individual influencer posing with the Mustang. This might be posted in Mustand and their social media.</li>
                                     </ul>
-                                    <h5 class="section-title mb-2">After Sales Experience</h5>
+                                    <h5 class="section-title mb-2">Affiliate</h5>
                                     <ul>
-                                        <li><strong>Customer Loyalty Programs</strong>: Implement loyalty programs for Mustang owners, providing benefits such as exclusive events, service discounts, and access to special Mustang-related experiences.</li>
-                                        <li><strong>Maintenance Packages</strong>: Offer bundled maintenance services to ensure customers have a seamless ownership experience.</li>
+                                        <li><strong>Daily vlog</strong>: Vlog-style content where Wang Yibo and Liu Yifei using Mustang in their daily life/routines.</li>
+                                        <li><strong>Co-branded Merchandise</strong>: Launch limited edition merchandise Mustang-themed featuring signature from Wang Yibo and Liu Yifei.</li>
                                     </ul>
                                 </div>
                             </div>
+                            <div class="row mb-5">
+                                <div class="col-6">
+                                    <video src="./assets/video/wangyibo.mp4" autoplay muted loop class="img-fluid w-100"></video>
+                                </div>
+                                <div class="col-6">
+                                    <video src="./assets/video/liuyifei.mp4" autoplay muted loop class="img-fluid w-100"></video>
+                                </div>
+                            </div>
+                            <p class="text-center mb-0">
+                                <strong>Explanation</strong>:
+                                <br><br>
+                                The content strategies selected for the Ford Mustang campaign featuring Wang Yibo and Liu Yifei are designed to maximize engagement and appeal to younger audiences. 
+                                Capturing the stars driving the Mustang highlights its performance and design, showcasing how the vehicle fits into their dynamic lifestyles. Behind-the-scenes clips offer authenticity, 
+                                allowing fans to connect with the influencers on a personal level as they express their genuine love for the car. A stylish fashion photoshoot reinforces the Mustang's status as a luxury 
+                                vehicle on social media platforms. Additionally, daily vlogs featuring the stars using the Mustang in their everyday routines create relatable content, while limited edition co-branded merchandise featuring their 
+                                signatures adds exclusivity and encourages deeper engagement. Hutter and Hoffmann (2014) emphasize that influencer marketing effectively leverages celebrity partnerships to enhance brand credibility and consumer trust, particularly 
+                                when influencers share authentic experiences with products, supporting the chosen content strategies to elevate the Mustang brand perception and drive engagement (Hutter, K., & Hoffmann, S. (2014). <i>Influencer Marketing: The Role of Influencers in Shaping Brand Credibility</i>)
+                                <br><br>
+                                <strong>Disclaimer</strong>: This video is not the author's original content and is used for educational purposes only. All rights belong to the original copyright holder.
+                            </p>
                         </div>
                     </section>
+                    <section class="p-5">
+                        <div class="tab-content mb-5">
+                            <div class="tab-pane show active text-center" id="darkHorseTab">
+                                <img src="./assets/images/DARK_HORSE.jpg" class="mustang-img-tab" alt="">
+                            </div>
+                            <div class="tab-pane text-center" id="ecoBoostTab">
+                                <img src="./assets/images/ECOBOOST.jpg" class="mustang-img-tab" alt="">
+                            </div>
+                            <div class="tab-pane text-center" id="gtPremiumTab">
+                                <img src="./assets/images/GT_PREMIUM.jpg" class="mustang-img-tab" alt="">
+                            </div>
+                            <div class="tab-pane text-center" id="gtTab">
+                                <img src="./assets/images/GT.jpg" class="mustang-img-tab" alt="">
+                            </div>
+                        </div>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="mustang-tab-link active" data-bs-toggle="tab" data-bs-target="#darkHorseTab" type="button">Dark Horse</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="mustang-tab-link" data-bs-toggle="tab" data-bs-target="#ecoBoostTab" type="button">EcoBoost</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="mustang-tab-link" data-bs-toggle="tab" data-bs-target="#gtPremiumTab" type="button">GT Premium</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="mustang-tab-link" data-bs-toggle="tab" data-bs-target="#gtTab" type="button" role="tab">GT</button>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="container-fluid p-0 mb-5">
+                        <div class="row g-0 mb-5">
+                            <div class="col-sm-6">
+                                <img src="./assets/images/1967-shelby-gt500cr-mustang-by-classic-recreations.jpg" class="img-fluid h-100 object-fit-cover" alt="">
+                            </div>
+                            <div class="col-sm-6 p-5 bg-ford-blue text-light">
+                                <h2 class="section-title text-center">Welcome to Mustang Family</h2>
+                                <div class="mb-2">
+                                    <label class="form-label">Full Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="mb-2">
+                                    <label class="form-label">Email</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="mb-2">
+                                    <label class="form-label">Phone Number</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="mb-5">
+                                    <label class="form-label">Domicile</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="text-center">
+                                    <button class="form-btn color-primary me-2" data-bs-toggle="modal" data-bs-target="#emailPreview">Request by Email</button>
+                                    <button class="form-btn color-primary" data-bs-toggle="modal" data-bs-target="#smsPreview">Request by SMS</button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mb-5">
+                            <strong>Explanation</strong>:
+                            <br><br>
+                            This email is suitable for the Ford Mustang campaign as it effectively combines excitement, exclusivity, and celebrity appeal to engage the target audience. By highlighting the unique opportunity to test drive the Mustang while meeting renowned stars Wang Yibo and Liu Yifei, the email taps into the aspirational desires of potential customers, positioning the Mustang as a lifestyle choice that aligns with the values of younger, affluent buyers. The sense of urgency created by limited spaces encourages prompt action, and the clear call to action facilitates easy responses from recipients. According to Chaffey and Ellis-Chadwick (2019), personalized and engaging email content significantly increases open rates and click-through rates, ultimately leading to higher conversion rates, which aligns with the campaign's objective of driving traffic and generating leads through effective communication (Chaffey, D., & Ellis-Chadwick, F. (2019). <i>Digital Marketing</i>).
+                        </p>
+                    </section>
+                    <section class="container mb-5">
+                        <h2 class="section-title text-center">Social Media Copy</h2>
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <article class="post h-100">
+                                    <div class="post-header">
+                                        <div>
+                                            <img src="./assets/icon/instagram_logo.jpg" class="post-header__logo" alt="">
+                                            <span>fordmustang.sea</span>
+                                        </div>
+                                        <span><i class="fa-solid fa-ellipsis"></i></span>
+                                    </div>
+                                    <img src="./assets/images/tp4/IMG_2877.JPG" class="img-fluid object-fit-cover" alt="">
+                                    <div class="post-content">
+                                        <div class="post-action">
+                                            <div class="post-action__left">
+                                                <div class="post-action-item">
+                                                    <span><i class="fa-regular fa-heart"></i></span>
+                                                    <span class="post-action__counter">357</span>
+                                                </div>
+                                                <div class="post-action-item">
+                                                    <span><i class="fa-regular fa-comment"></i></span>
+                                                    <span class="post-action__counter">55</span>
+                                                </div>
+                                                <div class="post-action-item">
+                                                    <span><i class="fa-regular fa-paper-plane"></i></span>
+                                                    <span class="post-action__counter">77</span>
+                                                </div>
+                                            </div>
+                                            <span><i class="fa-regular fa-bookmark"></i></span>
+                                        </div>
+                                        <p>
+                                            <strong>fordmustang.sea</strong> Welcome Wang Yibo to the Mustang Family 🚗🌟
+                                            <br><br>
+                                            We’re thrilled to have Wang Yibo join the Mustang family! As a symbol of style, power, and performance, the Mustang is the perfect match for Yibo’s bold and dynamic spirit. Ready to drive with him?
+                                            <br><br>
+                                            <span class="text-primary">#MustangModern</span> <span class="text-primary">#DriveWithWangYibo</span> <span class="text-primary">#UnleashTheFuture</span>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article class="post h-100">
+                                    <div class="post-header">
+                                        <div>
+                                            <img src="./assets/icon/instagram_logo.jpg" class="post-header__logo" alt="">
+                                            <span>fordmustang.sea</span>
+                                        </div>
+                                        <span><i class="fa-solid fa-ellipsis"></i></span>
+                                    </div>
+                                    <img src="./assets/images/tp4/IMG_2879.JPG" class="img-fluid object-fit-cover" alt="">
+                                    <div class="post-content">
+                                        <div class="post-action">
+                                            <div class="post-action__left">
+                                                <div class="post-action-item">
+                                                    <span><i class="fa-regular fa-heart"></i></span>
+                                                    <span class="post-action__counter">357</span>
+                                                </div>
+                                                <div class="post-action-item">
+                                                    <span><i class="fa-regular fa-comment"></i></span>
+                                                    <span class="post-action__counter">55</span>
+                                                </div>
+                                                <div class="post-action-item">
+                                                    <span><i class="fa-regular fa-paper-plane"></i></span>
+                                                    <span class="post-action__counter">77</span>
+                                                </div>
+                                            </div>
+                                            <span><i class="fa-regular fa-bookmark"></i></span>
+                                        </div>
+                                        <p>
+                                            <strong>fordmustang.sea</strong> The Perfect Balance of Style & Power 💪
+                                            <br><br>
+                                            From the city streets to open roads, the Ford Mustang delivers an unmatched driving experience. Ready to take the wheel?
+                                            <br><br>
+                                            <span class="text-primary">#MustangModern</span> <span class="text-primary">#DriveWithConfidence</span> <span class="text-primary">#UnleashTheFuture</span>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article class="post h-100">
+                                    <div class="post-header">
+                                        <div>
+                                            <img src="./assets/icon/instagram_logo.jpg" class="post-header__logo" alt="">
+                                            <span>fordmustang.sea</span>
+                                        </div>
+                                        <span><i class="fa-solid fa-ellipsis"></i></span>
+                                    </div>
+                                    <img src="./assets/images/tp4/IMG_2878.JPG" class="img-fluid object-fit-cover" alt="">
+                                    <div class="post-content">
+                                        <div class="post-action">
+                                            <div class="post-action__left">
+                                                <div class="post-action-item">
+                                                    <span><i class="fa-regular fa-heart"></i></span>
+                                                    <span class="post-action__counter">357</span>
+                                                </div>
+                                                <div class="post-action-item">
+                                                    <span><i class="fa-regular fa-comment"></i></span>
+                                                    <span class="post-action__counter">55</span>
+                                                </div>
+                                                <div class="post-action-item">
+                                                    <span><i class="fa-regular fa-paper-plane"></i></span>
+                                                    <span class="post-action__counter">77</span>
+                                                </div>
+                                            </div>
+                                            <span><i class="fa-regular fa-bookmark"></i></span>
+                                        </div>
+                                        <p>
+                                            <strong>fordmustang.sea</strong> Liu Yifei Joins the Mustang Family ✨🚘
+                                            <br><br>
+                                            A warm welcome to Liu Yifei as she becomes part of the Mustang family! Just like the Mustang, Liu Yifei embodies elegance, strength, and timeless appeal. Ready to experience this iconic collaboration?
+                                            <br><br>
+                                            <span class="text-primary">#MustangElegance</span> <span class="text-primary">#DriveWithLiuYifei</span> <span class="text-primary">#HeritageMeetsModern</span>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <strong>Disclaimer</strong>: This video is not the author's original content and is used for educational purposes only. All rights belong to the original copyright holder.
+                                <br><br>
+                                <strong>Explanation</strong>:
+                                <br><br>
+                                This social media marketing content is well-suited for the Ford Mustang campaign as it effectively leverages the popularity of Wang Yibo and Liu Yifei to engage a younger audience. By welcoming each star into the Mustang family with distinct posts, the campaign fosters a sense of community and excitement around the brand. Each post highlights the unique attributes of the Mustang while aligning them with the personalities of the influencers, enhancing brand affinity. According to Freberg et al. (2011), leveraging celebrity endorsements in social media can significantly increase audience engagement and brand perception. Additionally, Mangold and Faulds (2009) emphasize that social media is a powerful tool for brand storytelling and audience interaction, making it an ideal platform for campaigns that focus on lifestyle and aspiration.
+                            </div>
+                        </div>
+                    </section>
+                    <section class="container mb-5">
+                        <h2 class="section-title text-center">Viral Marketing Copy</h2>
+                        <div class="row mb-5">
+                            <div class="offset-md-1 col-md-4">
+                                <article class="post h-100">
+                                    <div class="post-header">
+                                        <div>
+                                            <img src="./assets/icon/instagram_logo.jpg" class="post-header__logo" alt="">
+                                            <span>fordmustang.sea</span>
+                                        </div>
+                                        <span><i class="fa-solid fa-ellipsis"></i></span>
+                                    </div>
+                                    <img src="./assets/images/tp4/IMG_2876.JPG" class="img-fluid object-fit-cover" alt="">
+                                    <div class="post-content">
+                                        <div class="post-action">
+                                            <div class="post-action__left">
+                                                <div class="post-action-item">
+                                                    <span><i class="fa-regular fa-heart"></i></span>
+                                                    <span class="post-action__counter">357</span>
+                                                </div>
+                                                <div class="post-action-item">
+                                                    <span><i class="fa-regular fa-comment"></i></span>
+                                                    <span class="post-action__counter">55</span>
+                                                </div>
+                                                <div class="post-action-item">
+                                                    <span><i class="fa-regular fa-paper-plane"></i></span>
+                                                    <span class="post-action__counter">77</span>
+                                                </div>
+                                            </div>
+                                            <span><i class="fa-regular fa-bookmark"></i></span>
+                                        </div>
+                                        <p>
+                                            <strong>fordmustang.sea</strong> Meet Wang Yibo & Liu Yifei in Style 🌟
+                                            <br><br>
+                                            Experience the Ford Mustang with two of Asia’s biggest stars! Test drive the Mustang and meet Wang Yibo and Liu Yifei at our exclusive event.
+                                            <br><br>
+                                            <span class="text-primary">#MustangStars</span> <span class="text-primary">#DriveYourHeritage</span> <span class="text-primary">#MeetTheIcons</span>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-6">
+                                <article class="post youtube">
+                                    <img src="./assets/images/tp4/thumbnail_yt.png" class="img-fluid object-fit-cover" alt="">
+                                    <div class="post-yt-info">
+                                        <div>
+                                            <img src="./assets/icon/instagram_logo.jpg" alt="">
+                                            <div class="post-yt-info__text">
+                                                <p class="mb-0">A New Era of Driving: Wang Yibo & Liu Yifei in the Ford Mustang</p>
+                                                <p class="mb-0">Ford Mustang SEA • 357M views • 5 days ago</p>
+                                            </div>
+                                        </div>
+                                        <span><i class="fa-solid fa-ellipsis"></i></span>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <p class="text-center mb-0">
+                            <strong>Disclaimer</strong>: This video is not the author's original content and is used for educational purposes only. All rights belong to the original copyright holder.
+                            <br><br>
+                            <strong>Explanation</strong>:
+                            <br><br>
+                            This viral marketing content is effective for the Ford Mustang campaign as it capitalizes on the star power of Wang Yibo and Liu Yifei to create excitement and drive engagement. By inviting potential customers to test drive the Mustang and meet these popular influencers, the campaign enhances brand visibility and connects the Mustang with an aspirational lifestyle that resonates with younger audiences. The use of engaging hashtags encourages social sharing, increasing the likelihood of going viral. Kotler and Keller (2016) highlight that celebrity endorsements can significantly boost brand equity and attract a wider audience, while Tuten and Solomon (2017) note that viral marketing enhances brand awareness and consumer engagement, making it a powerful strategy for reaching tech-savvy consumers.
+                        </p>
+                    </section>
+                    <section class="p-5 bg-ford-blue text-light">
+                        <div class="container">
+                            <h4 class="section-title mb-2 text-center">Offline Promotion</h4>
+                            <h1 class="section-title text-center">Car Shows and Expos with Celebrity Appearances</h1>
+                            <p class="text-center mb-5"><strong>Objective</strong>: Leverage the popularity of Wang Yibo and Liu Yifei to attract a larger audience and enhance brand prestige.</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h4 class="section-title">Timeline: Bi-annual (2 major events per year)</h4>
+                                    <h5 class="section-title mb-2">Target Events</h5>
+                                    <ul>
+                                        <li>Jakarta Auto Show</li>
+                                        <li>Singapore Motor Show</li>
+                                    </ul>
+                                    <h5 class="section-title mb-2">Activities</h5>
+                                    <ul>
+                                        <li><strong>Exclusive Panel Discussions</strong>: Host panels featuring Wang Yibo and Liu Yifei discussing their passion for cars and the Mustang's appeal, possibly sharing personal experiences.</li>
+                                        <li><strong>Live Demonstrations</strong>: The actors can participate in live demonstrations of Mustang features, adding excitement to the showcases.</li>
+                                        <li><strong>VIP Access</strong>: Create a VIP section where select fans can have exclusive interactions with the actors and participate in giveaways.</li>
+                                        <li><strong>Sign Autographs</strong>: Organize sessions where fans can get autographs from the actors, making the event memorable.</li>
+                                    </ul>
+                                    <h5 class="section-title mb-2">Promotion</h5>
+                                    <ul>
+                                        <li><strong>Press Releases</strong>: Distribute press releases announcing the actors' participation, emphasizing their connection to the Mustang brand.</li>
+                                        <li><strong>Social Media Blitz</strong>: Use targeted social media advertising to promote the events, highlighting the celebrity involvement.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <h4 class="section-title">Measurement and Evaluation</h4>
+                                    <h5 class="section-title mb-2">KPIs</h5>
+                                    <ul>
+                                        <li>Attendance numbers at events.</li>
+                                        <li>Social media engagement metrics (likes, shares, comments).</li>
+                                        <li>Number of test drives booked during events.</li>
+                                        <li>Sales conversions attributed to event promotions.</li>
+                                    </ul>
+                                    <h5 class="section-title mb-2">Review Schedule</h5>
+                                    <p class="mb-0">Monthly evaluations of engagement metrics and attendance to refine future events and promotions.</p>
+                                </div>
+                            </div>
+                            <p class="text-center mb-0">
+                                <strong>Explanation</strong>:
+                                <br><br>
+                                The offline promotion techniques, particularly through car shows and expos featuring Wang Yibo and Liu Yifei, are strategically chosen to enhance brand visibility and prestige for the Ford Mustang. By leveraging the star power of these popular celebrities, the campaign aims to attract a larger audience and create a memorable experience that fosters deeper connections between potential customers and the Mustang brand. Engaging activities, such as exclusive panel discussions and live demonstrations, not only showcase the vehicle's features but also build a community around the brand through interactive experiences. According to Shankar et al. (2011), integrating offline promotional strategies with celebrity endorsements can significantly increase consumer interest and brand loyalty. Furthermore, Kotler and Keller (2016) emphasize that events providing unique experiences can effectively enhance customer engagement and drive sales conversions.
+                            </p>
+                        </div>
+                    </section>
+                    <section class="p-5">
+                        <div class="container">
+                            <h2 class="section-title">Source</h2>
+                            <ul>
+                                <li>Kaplan, A. M., & Haenlein, M. (2010). Users of the world, unite! The challenges and opportunities of Social Media. <i>Business Horizons</i>, 53(1), 59-68.</li>
+                                <li>Ohanian, R. (1990). Construction and validation of a scale to measure celebrity endorsers’ perceived expertise, trustworthiness, and attractiveness. <i>Journal of Advertising Research</i>, 30(3), 39-48.</li>
+                                <li>Kotler, P., & Keller, K. L. (2016). <i>Marketing Management</i> (15th ed.). Pearson.</li>
+                                <li>Blakeman, R. (2018). The role of marketing communications budgeting: A historical overview and a research agenda. <i>Journal of Advertising Research</i>, 58(4), 379-384.</li>
+                                <li>Chaffey, D., & Ellis-Chadwick, F. (2019). <i>Digital Marketing</i> (7th ed.). Pearson.</li>
+                                <li>Grunig, J. E., & Hunt, T. (1984). <i>Managing Public Relations</i>. Holt, Rinehart and Winston.</li>
+                                <li>Hutter, K., & Hoffmann, S. (2014). <i>Influencer Marketing: The Role of Influencers in Shaping Brand Credibility</i>. <i>Journal of Advertising Research</i>, 54(2), 121-134.</li>
+                                <li>Freberg, K., Graham, K., Mendez, S., & Freberg, L. A. (2011). <i>Who Are the Social Media Influencers? A Study of Public Perceptions of Personality</i>. Public Relations Review, 37(1), 90-92.</li>
+                                <li>Mangold, W. G., & Faulds, D. J. (2009). <i>Social Media: The New Hybrid Element of the Promotion Mix</i>. Business Horizons, 52(4), 357-365.</li>
+                                <li>Shankar, V., Berry, L. L., & Dotzel, T. (2011). <i>A Practical Guide to Combining Offline and Online Marketing: The Role of the Brand</i>. Journal of Marketing, 75(4), 26-31.</li>
+                                <li><a href="https://s201.q4cdn.com/693218008/files/doc_financials/2023/ar/2023-Ford-Annual-Report.pdf" target="_blank">https://s201.q4cdn.com/693218008/files/doc_financials/2023/ar/2023-Ford-Annual-Report.pdf</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="emailPreview">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Email Preview</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./assets/images/tp4/email_preview.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="smsPreview">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">SMS Preview</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./assets/images/tp4/sms_preview.png" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
